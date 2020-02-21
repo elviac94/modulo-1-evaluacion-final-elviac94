@@ -1,0 +1,45 @@
+.page__hero{
+    height: 100vh;
+    background: url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    & .hero-container {
+        margin-top: 284px;
+        width: 100%;
+        color: $colorWhite;
+        & h1{
+            text-transform: uppercase;
+            font-family: $fontTitle;
+            font-size: 42px;
+        }
+        & p{
+            font-family: $fontText;
+            font-size: 16px;
+
+        }
+        
+    }
+    & .hero-button{
+        background-color: $colorWhite;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+
+        & a{
+            display: block;
+        }
+    }
+    
+    
+}
+

@@ -1,0 +1,23 @@
+.page__header {
+  position: fixed;
+  background-color: #0271bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  & .header-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    & a{
+      display: block;
+      padding: 5px;
+      
+    }
+    
+  }
+}

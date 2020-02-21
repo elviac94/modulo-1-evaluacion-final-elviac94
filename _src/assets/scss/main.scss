@@ -1,5 +1,9 @@
-@import "core/settings";
-@import "components/page";
-@import "components/header";
-@import "components/links";
-@import "components/footer";
+@import './core/reset';
+@import './utils/variables';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/section-two';
+@import './layouts/main';
+@import './layouts/footer';
+
+
