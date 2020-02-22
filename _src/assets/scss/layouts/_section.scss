@@ -1,0 +1,37 @@
+.page__section{
+    background-color: $backgroundSection;
+    padding:30px 15px 60px;
+    & .section--title {
+        color: $colorBlack;
+        font-family: $fontTitle;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    > .section--content {
+        padding: 0 21.875%;
+        > div {
+            color: $colorBlack;
+            margin-bottom: 45px;
+    
+    
+            & h3{
+                font-family: $fontTitle;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 30px;
+            }
+    
+            & p{
+                font-family: $fontText;
+                font-size: 18px;
+                font-weight: normal;
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+    }
+}
