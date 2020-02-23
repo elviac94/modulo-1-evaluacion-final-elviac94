@@ -1,22 +1,24 @@
 .page__section{
     background-color: $backgroundSection;
-    padding:30px 15px 60px;
+    padding: 30px 15px 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px 0;
+
     & .section--title {
         color: $colorBlack;
         font-family: $fontTitle;
         font-size: 24px;
         font-weight: bold;
         text-transform: capitalize;
-        margin-bottom: 45px;
         text-align: center;
     }
     > .section--content {
-        padding: 0 21.875%;
+        padding: 0 55px;
+        display: grid;
+        grid-gap: 45px 0;
         > div {
-            color: $colorBlack;
-            margin-bottom: 45px;
-    
-    
+            color: $colorBlack;    
             & h3{
                 font-family: $fontTitle;
                 font-size: 18px;
@@ -31,6 +33,27 @@
                 font-weight: normal;
                 text-align: center;
                 line-height: 30px;
+            }
+        }
+    }
+
+    > .section--container-button {
+        text-align: center;
+
+        & .section-button{
+            width:184px;
+            height:45px;
+            background-color: $colorOrange;
+            color: $colorWhite;
+            border-radius: 22.5px;
+            font-family: $fontText;
+            font-size: 20px;
+            font-weight: 500;
+            outline: none;
+            border: none;
+            transition: background-color 0.8s ease;
+            &:hover{
+                background: $colorDarkOrange;
             }
         }
     }
