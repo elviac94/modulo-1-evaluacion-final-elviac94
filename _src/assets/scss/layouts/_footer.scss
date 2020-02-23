@@ -1,1 +1,16 @@
 
+.page__footer{
+    background-color: $backgroundFooter;
+    
+    & .container--footer{
+        font-family: $fontText;
+        color: $colorWhite;
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 15px 45px;
+
+    }
+}
