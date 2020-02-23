@@ -64,7 +64,43 @@
         }
     }
 
-    
+    @media all and (min-width: 768px){
+        .container--footer{
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 45px 39px 45px;
+
+            & .footer--copy{
+                width: 27%;
+                display: flex;
+                flex-direction: column;
+                order: -1;
+            }
+            & .footer-first,
+            & .footer-second{
+                width: 27%;
+            }
+            
+            & .footer-first ul li,
+            & .footer-second ul li {
+                text-align: start;
+            }
+        }
+    }
+
+    @media all and (min-width: 1200px){
+        .container--footer{
+            padding: 45px 370px 45px;
+
+            & .footer--copy,
+            & .footer-first,
+            & .footer-second{
+                width: 20%;
+            }
+        }
+        
+    }
 }
 
 

@@ -1,8 +1,15 @@
+/*Text*/
 $fontTitle:'Roboto Slab','san-serif' ;
 $fontText:'Roboto','san-serif' ;
+
+/*Color*/
 $colorWhite: #ffffff;
 $colorOrange: #f26002;
 $colorDarkOrange: #963b03;
 $colorBlack: #000000;
 $backgroundSection:#eff9ff;
 $backgroundFooter:#304268;
+
+/*Breakpoints*/
+$tablet:768px;
+$desktop:1200px;
