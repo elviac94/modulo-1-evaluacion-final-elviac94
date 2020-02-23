@@ -5,12 +5,42 @@
     & .container--footer{
         font-family: $fontText;
         color: $colorWhite;
+        font-size: 16px;
         font-weight: normal;
+        line-height: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 60px 15px 45px;
 
+        & .footer-first,
+        & .footer-second {
+            padding-bottom: 30px;
+            text-transform: uppercase;
+            
+            & ul{
+                text-align: center;
+                
+            }
+        }
+
+        & a {
+            color: $colorWhite;
+            font-weight: normal;
+        }
+        & small,
+        & span{
+            font-size: 14px;
+        }
+
+        & span.orange-text{
+            color: $colorOrange;
+        }
+        
     }
 }
+
+
+
+    
