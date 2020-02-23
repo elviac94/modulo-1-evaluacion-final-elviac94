@@ -1,7 +1,8 @@
 
 .page__footer{
     background-color: $backgroundFooter;
-    
+    position: relative;
+
     & .container--footer{
         font-family: $fontText;
         color: $colorWhite;
@@ -39,6 +40,31 @@
         }
         
     }
+
+    & .transparent {
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+
+        .footer-button{
+            position: absolute;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            background-color: $colorWhite;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    
 }
 
 
