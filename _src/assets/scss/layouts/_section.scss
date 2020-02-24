@@ -81,6 +81,19 @@
         }
         & .section--container-button .section-button{
             width: 210px;
+            
+        }
+    }
+
+    @media all and (min-width:1200px){
+       
+        & .section--title{
+            padding-top: 30px;
+            font-size: 32px;
+        }
+
+        & .section--container-button .section-button{
+            width: 255px;
         }
     }
 }
