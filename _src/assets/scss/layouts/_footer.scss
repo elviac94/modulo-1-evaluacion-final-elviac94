@@ -29,6 +29,7 @@
         & a {
             color: $colorWhite;
             font-weight: normal;
+            padding: 5px;
         }
         & small,
         & span{
@@ -61,6 +62,19 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            animation-name: intro;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            @keyframes intro {
+                from{
+                    opacity: 0;
+                }
+                to{
+                    opacity: 1;
+                }
+                
+            }
+
         }
     }
 
